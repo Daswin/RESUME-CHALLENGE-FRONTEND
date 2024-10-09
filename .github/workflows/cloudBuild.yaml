@@ -8,8 +8,4 @@ steps:
         gsutil cp ..test.txt gs://project-dev-cloudresumechallenge2024
 
 # Optional: Specify a timeout for the build
-<<<<<<< HEAD
 timeout: '600s'
-=======
-timeout: '600s'
->>>>>>> ef72aef0a13dd6a3165afd21fd3c9226476a1c9c

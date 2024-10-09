@@ -6,7 +6,7 @@ steps:
       - |
         cd Website
         # Copy the file to GCP bucket
-        gsutil cp . gs://project-dev-cloudresumechallenge2024
+        gsutil -m cp -r gs://project-dev-cloudresumechallenge2024
         
 
 # Optional: Specify a timeout for the build

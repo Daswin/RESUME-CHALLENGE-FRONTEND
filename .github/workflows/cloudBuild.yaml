@@ -5,7 +5,8 @@ steps:
       - '-c'
       - |
         # Copy the file to GCP bucket
-        gsutil cp ..test.txt gs://project-dev-cloudresumechallenge2024
+        gsutil cp ../test.txt gs://project-dev-cloudresumechallenge2024
+        gsutil cp ../test2.txt gs://project-dev-cloudresumechallenge2024
 
 # Optional: Specify a timeout for the build
 timeout: '600s'
